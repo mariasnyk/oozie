@@ -93,7 +93,7 @@
          <!-- Sharelib component versions -->
          <hive.version>1.2.2</hive.version>
          <hive.jline.version>2.12</hive.jline.version>
-         <pig.version>0.16.0</pig.version>
+         <pig.version>0.17.0</pig.version>
          <pig.classifier>h2</pig.classifier>
          <hive.classifier>core</hive.classifier>
          <snappy-java.version>1.1.8.4</snappy-java.version>
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
