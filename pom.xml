@@ -121,7 +121,7 @@
          <log4j.version>1.2.17</log4j.version>
          <log4j2.version>2.17.1</log4j2.version>
          <activemq.version>5.15.9</activemq.version>
-         <commons.lang3.version>3.3.2</commons.lang3.version>
+         <commons.lang3.version>3.12.0</commons.lang3.version>
          <httpcore.version>4.3.3</httpcore.version>
          <httpclient.version>4.3.6</httpclient.version>
          <kyro.version>2.22</kyro.version>
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
