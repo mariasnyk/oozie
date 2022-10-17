@@ -98,7 +98,7 @@
          <hive.classifier>core</hive.classifier>
          <snappy-java.version>1.1.8.4</snappy-java.version>
          <sqoop.version>1.4.7</sqoop.version>
-         <spark.version>1.6.1</spark.version>
+         <spark.version>2.0.1</spark.version>
          <spark.streaming.kafka.version>1.6.1</spark.streaming.kafka.version>
          <spark.bagel.version>1.6.1</spark.bagel.version>
          <spark.guava.version>14.0.1</spark.guava.version>
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
@@ -2164,7 +2163,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <spark.version>1.6.1</spark.version>
+                <spark.version>2.0.1</spark.version>
                 <spark.streaming.kafka.version>1.6.1</spark.streaming.kafka.version>
                 <spark.bagel.version>1.6.1</spark.bagel.version>
             </properties>
@@ -2175,7 +2174,7 @@
                 <activeByDefault>false</activeByDefault>
             </activation>
             <properties>
-                <spark.version>2.1.0</spark.version>
+                <spark.version>2.0.1</spark.version>
                 <spark.streaming.kafka.version>1.6.2</spark.streaming.kafka.version>
                 <spark.bagel.version>1.6.2</spark.bagel.version>
             </properties>
