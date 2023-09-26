@@ -106,7 +106,7 @@
          <sqoop.classifier>hadoop260</sqoop.classifier>
          <tez.version>0.8.4</tez.version>
          <joda.time.version>2.9.9</joda.time.version>
-         <avro.version>1.8.2</avro.version>
+         <avro.version>1.9.0</avro.version>
 
          <jetty.version>9.4.44.v20210927</jetty.version>
          <apache.jsp.version>8.0.33</apache.jsp.version>
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
