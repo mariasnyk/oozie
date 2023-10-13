@@ -80,7 +80,7 @@
         </oozie.test.default.config.file>
         <oozie.test.config.file>${oozie.test.default.config.file}</oozie.test.config.file>
 
-        <hadoop.version>2.6.0</hadoop.version>
+        <hadoop.version>2.9.0</hadoop.version>
         <hadoop.majorversion>2</hadoop.majorversion>
         <hadooplib.version>hadoop-${hadoop.majorversion}-${project.version}</hadooplib.version>
         <hbase.version>1.2.3</hbase.version>
@@ -91,7 +91,7 @@
 
 
          <!-- Sharelib component versions -->
-         <hive.version>1.2.2</hive.version>
+         <hive.version>3.0.0</hive.version>
          <hive.jline.version>2.12</hive.jline.version>
          <pig.version>0.16.0</pig.version>
          <pig.classifier>h2</pig.classifier>
@@ -115,7 +115,7 @@
          <openjpa.version>2.4.2</openjpa.version>
          <derby.version>10.14.2.0</derby.version>
          <xerces.version>2.11.0</xerces.version>
-         <curator.version>2.5.0</curator.version>
+         <curator.version>2.9.0</curator.version>
          <jackson.version>2.6.7</jackson.version>
          <jackson.databind.version>2.6.7.5</jackson.databind.version>
          <log4j.version>1.2.17</log4j.version>
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
