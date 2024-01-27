@@ -113,7 +113,7 @@
 
          <jline.version>0.9.94</jline.version>
          <openjpa.version>2.4.2</openjpa.version>
-         <derby.version>10.14.2.0</derby.version>
+         <derby.version>10.17.1.0</derby.version>
          <xerces.version>2.11.0</xerces.version>
          <curator.version>2.5.0</curator.version>
          <jackson.version>2.6.7</jackson.version>
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
