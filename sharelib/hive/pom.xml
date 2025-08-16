@@ -148,7 +148,7 @@
         <dependency>
            <groupId>net.hydromatic</groupId>
            <artifactId>aggdesigner-algorithm</artifactId>
-           <version>6.0</version>
+           <version>6.1</version>
         </dependency>
 
         <dependency>
@@ -231,9 +231,7 @@
                         <configuration>
                             <target>
                                 <!-- needed to include Main class in classpath for mini yarn cluster for unit tests -->
-                                <echo file="${project.build.directory}/test-classes/mrapp-generated-classpath"
-                                      append="true"
-                                      message=":${project.build.directory}/classes"/>
+                                <echo file="${project.build.directory}/test-classes/mrapp-generated-classpath" append="true" message=":${project.build.directory}/classes"/>
                             </target>
                         </configuration>
                         <goals>
