@@ -1602,7 +1602,7 @@
             <dependency>
                 <groupId>guru.nidi</groupId>
                 <artifactId>graphviz-java</artifactId>
-                <version>0.7.0</version>
+                <version>0.8.1</version>
             </dependency>
 
             <!-- Fluent Job API conversion to XML -->
@@ -1973,8 +1973,7 @@
                                 <exclude>**/findsecbugs*.jar</exclude>
                             </excludes>
                             <fileMappers>
-                                <fileMapper
-                                       implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
+                                <fileMapper implementation="org.codehaus.plexus.components.io.filemappers.FileExtensionMapper">
                                     <targetExtension>.html</targetExtension>
                                 </fileMapper>
                             </fileMappers>
